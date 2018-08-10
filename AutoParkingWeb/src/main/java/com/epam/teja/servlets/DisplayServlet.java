@@ -42,6 +42,8 @@ public class DisplayServlet extends HttpServlet {
 		response.setContentType("text/html");
 		out.println("<html>");
 		out.println("<body>");
+		out.println("<marquee><h1>Auto Parking Application</h1></marquee>");
+		out.println("Status of Lobby");
 		out.println("<center>");
 		out.println("<table border=\"1\">");
 		out.println("<tr>");
